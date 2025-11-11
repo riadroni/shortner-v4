@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  Apply a neutral background and base typography for the entire app. The
+  html, body and root elements are set to full height to allow for
+  flex layouts that fill the viewport. You can tweak these values to
+  better match your desired look and feel.
+*/
+html, body, :root {
+  height: 100%;
+}
+body {
+  /* Use a soft gradient background across the whole app for a more
+     polished and attractive appearance. */
+  @apply bg-gradient-to-br from-gray-100 via-purple-50 to-pink-50 text-gray-900;
+}
+
+/*
+  Custom animations and utility classes. These classes are defined
+  alongside Tailwind's base styles and can be applied to elements
+  to produce smooth entrance effects and transitions.
+
+  animate-fade-in: Fades an element in while slightly translating it
+  upward. Useful for components that should gracefully appear on
+  initial render.
+*/
+
+@layer utilities {
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out both;
+  }
+}

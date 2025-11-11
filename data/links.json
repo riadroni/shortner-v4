@@ -1,0 +1,31 @@
+{
+  "global": {
+    "h6drd": {
+      "id": "h6drd",
+      "image": "/uploads/h6drd-1762708836812-loading.gif",
+      "urlMobile": "https://example.com/mobile",
+      "urlDesktop": "https://www.facebook.com/"
+    },
+    "dsdsfs": {
+      "id": "dsdsfs",
+      "image": "/uploads/dsdsfs-1762709028505-2.jpeg",
+      "urlMobile": "https://example.com/mobile",
+      "urlDesktop": "https://tenor.com/view/loading-gif-6449096453315144907"
+    }
+  },
+  "riad96048@gmail.com": {
+    "nnmnm": {
+      "id": "nnmnm",
+      "image": "/uploads/nnmnm-1762795513603-loading.gif",
+      "urlMobile": "https://example.com/mobile",
+      "urlDesktop": "https://example.com/desktop"
+    },
+    "dsdsfsdaaadjhh": {
+      "id": "dsdsfsdaaadjhh",
+      "image": "/uploads/dsdsfsdaaadjhh-1762880276660-loading.gif",
+      "urlMobile": "https://www.facebook.com/",
+      "urlDesktop": "https://www.facebook.com/"
+    }
+  },
+  "riadr96048@gmail.com": {}
+}
