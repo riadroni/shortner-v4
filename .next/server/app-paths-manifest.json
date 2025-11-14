@@ -1,0 +1,16 @@
+{
+  "/[id]/page": "app/[id]/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/create/route": "app/api/create/route.js",
+  "/api/delete/[id]/route": "app/api/delete/[id]/route.js",
+  "/api/link/[id]/route": "app/api/link/[id]/route.js",
+  "/api/links/route": "app/api/links/route.js",
+  "/api/login/route": "app/api/login/route.js",
+  "/api/logout/route": "app/api/logout/route.js",
+  "/api/register/route": "app/api/register/route.js",
+  "/api/uploads/[...path]/route": "app/api/uploads/[...path]/route.js",
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/register/page": "app/register/page.js"
+}

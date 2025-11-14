@@ -1,0 +1,3 @@
+module.exports=[66188,a=>{"use strict";var b=a.i(7997);function c(){return(0,b.jsxs)("div",{className:"flex flex-col items-center justify-center min-h-screen space-y-4",children:[(0,b.jsx)("h1",{className:"text-3xl font-bold",children:"404 - Not Found"}),(0,b.jsx)("p",{className:"text-gray-600",children:"The link you are looking for does not exist."})]})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=app_not-found_tsx_ef35050a._.js.map

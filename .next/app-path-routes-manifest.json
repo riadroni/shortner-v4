@@ -1,0 +1,16 @@
+{
+  "/[id]/page": "/[id]",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/create/route": "/api/create",
+  "/api/delete/[id]/route": "/api/delete/[id]",
+  "/api/link/[id]/route": "/api/link/[id]",
+  "/api/links/route": "/api/links",
+  "/api/login/route": "/api/login",
+  "/api/logout/route": "/api/logout",
+  "/api/register/route": "/api/register",
+  "/api/uploads/[...path]/route": "/api/uploads/[...path]",
+  "/login/page": "/login",
+  "/page": "/",
+  "/register/page": "/register"
+}
