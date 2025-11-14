@@ -411,6 +411,10 @@ img, video {
   max-width: 72rem;
 }
 
+.max-w-\[800px\] {
+  max-width: 800px;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
