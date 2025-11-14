@@ -31,7 +31,7 @@ export default function RedirectComponent({ image, urlMobile, urlDesktop }: Prop
       <img
         src={image}
         alt="Loading"
-        className="max-w-xs w-full mx-auto"
+        className="max-w-[800px] aspect-[4:3] w-full mx-auto"
       />
     
     </div>
