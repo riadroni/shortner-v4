@@ -1,3 +1,4 @@
+import { Metadata } from 'next';
 import './globals.css';
 // Note: Header is intentionally not imported here. Previously the global
 // layout rendered a shared header (navigation bar) across all pages, which
@@ -7,9 +8,27 @@ import './globals.css';
 // and render the `Header` component themselves. Removing the import here
 // prevents the header from being rendered automatically on every page.
 
-export const metadata = {
-  title: 'URL Shortener',
-  description: 'Custom ID + GIF + Mobile/Desktop redirect',
+export const metadata: Metadata = {
+  metadataBase: new URL(""),
+  title: "",
+  description:
+    "",
+  openGraph: {
+    title: "",
+    description:
+      "",
+    url: "/",
+    siteName: "",
+    type: "website",
+    images: [
+      {
+        url: "", // file in /public
+      
+      },
+    ],
+    locale: "en_US",
+  },
+ 
 };
 
 /**
