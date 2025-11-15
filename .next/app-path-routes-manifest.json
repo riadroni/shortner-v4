@@ -12,5 +12,5 @@
   "/api/uploads/[...path]/route": "/api/uploads/[...path]",
   "/login/page": "/login",
   "/page": "/",
-  "/register/page": "/register"
+  "/register-nobita@chowdhuri/page": "/register-nobita@chowdhuri"
 }

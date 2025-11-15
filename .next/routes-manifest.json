@@ -109,10 +109,10 @@
       "namedRegex": "^/login(?:/)?$"
     },
     {
-      "page": "/register",
-      "regex": "^/register(?:/)?$",
+      "page": "/register-nobita@chowdhuri",
+      "regex": "^/register\\-nobita@chowdhuri(?:/)?$",
       "routeKeys": {},
-      "namedRegex": "^/register(?:/)?$"
+      "namedRegex": "^/register\\-nobita@chowdhuri(?:/)?$"
     }
   ],
   "dataRoutes": [],

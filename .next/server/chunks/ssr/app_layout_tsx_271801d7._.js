@@ -1,3 +1,3 @@
-module.exports=[33290,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{className:"min-h-screen relative bg-[#f2f8fc]",children:(0,b.jsx)("div",{className:"mx-auto max-w-6xl p-4 md:p-8",children:a})})})}a.s(["default",()=>c,"metadata",0,{title:"URL Shortener",description:"Custom ID + GIF + Mobile/Desktop redirect"}])}];
+module.exports=[33290,a=>{"use strict";var b=a.i(7997);function c({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{className:"min-h-screen relative bg-[#f2f8fc]",children:(0,b.jsx)("div",{className:"mx-auto max-w-6xl p-4 md:p-8",children:a})})})}a.s(["default",()=>c,"metadata",0,{title:"",description:"",openGraph:{title:"",description:"",url:"/",siteName:"",type:"website",images:[{url:""}],locale:"en_US"}}])}];
 
 //# sourceMappingURL=app_layout_tsx_271801d7._.js.map

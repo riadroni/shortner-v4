@@ -9,7 +9,7 @@ import './globals.css';
 // prevents the header from being rendered automatically on every page.
 
 export const metadata: Metadata = {
-  metadataBase: new URL(""),
+ 
   title: "",
   description:
     "",

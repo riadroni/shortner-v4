@@ -77,7 +77,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/register": {
+    "/register-nobita@chowdhuri": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -90,8 +90,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/register",
-      "dataRoute": "/register.rsc",
+      "srcRoute": "/register-nobita@chowdhuri",
+      "dataRoute": "/register-nobita@chowdhuri.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
