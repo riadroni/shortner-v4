@@ -27,11 +27,11 @@ export default function RedirectComponent({ image, urlMobile, urlDesktop }: Prop
     return () => clearTimeout(timer);
   }, [urlMobile, urlDesktop]);
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8 space-y-4">
+    <div className="flex flex-col items-center justify-center min-h-screen lg:p-8 space-y-4">
       <img
         src={image}
         alt="Loading"
-        className="max-w-[800px] aspect-[4:3] w-full mx-auto"
+        className="lg:max-w-[800px] lg:aspect-[4:3] w-full mx-auto"
       />
     
     </div>

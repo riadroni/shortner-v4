@@ -592,6 +592,11 @@ img, video {
   --tw-gradient-to: #db2777 var(--tw-gradient-to-position);
 }
 
+.object-cover {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -971,12 +976,20 @@ body {
     height: 100vh;
   }
 
+  .lg\:max-w-\[800px\] {
+    max-width: 800px;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
 
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:p-8 {
+    padding: 2rem;
   }
 }
 
